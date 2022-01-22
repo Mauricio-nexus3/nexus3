@@ -152,7 +152,7 @@ html {
 header {
   min-height: 100vh;
   width: 100%;
-  background: url(images/banner1.jpg) no-repeat top center/cover;
+  background: url(./images/banner1.jpg) no-repeat top center/cover;
   position: relative;
 }
 
@@ -227,7 +227,7 @@ header {
   margin-left: -10px;
   color: transparent;
   -webkit-text-stroke: 1px var(--font-color-light);
-  background: url(images/back.png);
+  background: url(./images/back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
@@ -573,7 +573,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url('images/banner1.jpg') no-repeat center;
+  background: url('./images/banner1.jpg') no-repeat center;
   height: 100vh;
   color: var(--font-color-light);
   min-height: 500px;
